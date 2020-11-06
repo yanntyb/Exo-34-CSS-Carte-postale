@@ -1,0 +1,89 @@
+.fond {
+    width: 550px;
+    height: 400px;
+    background-color: lightgrey;
+}
+
+.carte {
+    width: 350px;
+    height: 200px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    background-color: white;
+    font-family: sans-serif;
+    box-shadow: -3px 4px 8px 5px rgba(0,0,0,0.2);
+}
+
+.carte .text {
+    display: inline;
+    position: relative;
+    top: 50px;
+    left: 5px;
+    color: #989898;
+}
+
+.carte .text p {
+    font-size: 8px;
+    margin-left: 8px;
+}
+
+.separation {
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    left: 200px;
+    height: 170px;
+    width: 1px;
+    background-color: black;
+}
+
+.carte .timbre {
+    position: absolute;
+    width: 40px;
+    height: 50px;
+    border: 1px solid;
+    top: 20px;
+    right: 20px;
+}
+
+.ligne1  hr{
+    display: block;
+    background-color: black;
+    position: relative;
+    right: -100px;
+    bottom: -10px;
+    width: 120px;
+    margin-top: 10px;
+}
+
+.ligne2 hr{
+    display: block;
+    background-color: black;
+    position: relative;
+    right: -135px;
+    bottom: -30px;
+    width: 50px;
+    margin-top: 10px;
+}
+
+.listecarre .carre {
+    position: absolute;
+    width: 7px;
+    height: 10px;
+    border: 1px solid black;
+}
+
+.listecarre ul{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 50px;
+    right: 80px;
+    list-style: none;
+}
+
+.listecarre li{
+    display: inline-block;
+    margin-left: 9px;
+}
